@@ -8,7 +8,7 @@ import { addToCart, removeFromCart } from '../actions/cartActions'
 function CartScreen() {
   const {id} = useParams()
   const location = useLocation()
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const userLogin = useSelector((state) => state.userLogin)
   const { userInfo } = userLogin
   const qty = location.search ? Number(location.search.split('=')[1]) : 1

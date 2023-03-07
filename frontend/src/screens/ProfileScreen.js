@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Link, useParams, useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Form, Row, Col, Button, Table } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
@@ -38,7 +38,7 @@ function ProfileScreen() {
         if (!userInfo) {
             navigate('/login')
         } else {
-            if (!user || !user.name || success) {
+            if (!user || !user.name || success || userInfo._id !== user._id) {
                 dispatch({type: USER_UPDATE_PROFILE_RESET})
                 dispatch(getUserDetails('profile'))
                 dispatch(listMyOrders())
@@ -48,11 +48,11 @@ function ProfileScreen() {
 
             }
         }
-    }, [dispatch, userInfo, user, success])
+    }, [dispatch, userInfo, user, success, navigate])
 
     const submitHandler = (e) => {
         e.preventDefault()
-        if (password != confirmPassword) {
+        if (password !== confirmPassword) {
             setMessage('Passwords do not match!')
         } else {
             dispatch(updateUserProfile({
