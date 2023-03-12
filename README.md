@@ -6,7 +6,7 @@
 ## Pagination
 <img width="1440" alt="Screen Shot 2023-03-12 at 22 53 16" src="https://user-images.githubusercontent.com/40741967/224549713-4396fca8-3adc-4aae-98b4-71b433627b4f.png">
 
-
+## Simple Registration
 <img width="1440" alt="Screen Shot 2023-03-12 at 23 02 05" src="https://user-images.githubusercontent.com/40741967/224549728-7af8991b-8604-4b49-a088-f3223f8e23d2.png">
 
 ## Select Your Product
