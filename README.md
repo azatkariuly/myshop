@@ -19,9 +19,6 @@
 <img width="1440" alt="Screen Shot 2023-03-12 at 22 54 58" src="https://user-images.githubusercontent.com/40741967/224549735-ad610772-f5f1-4da3-8ae7-5790c56babfe.png">
 
 ## Checkout Procedure
-<img width="1440" alt="Screen Shot 2023-03-12 at 22 58 43" src="https://user-images.githubusercontent.com/40741967/224549741-5e25c2c9-c6d9-414e-a990-03a67a81676c.png">
-
-## HZ
 <img width="1440" alt="Screen Shot 2023-03-12 at 22 59 38" src="https://user-images.githubusercontent.com/40741967/224549745-c2f58ca5-c340-4ac1-b28b-f8eb02939b47.png">
 
 ## Full Payment Integration
